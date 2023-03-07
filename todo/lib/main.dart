@@ -14,11 +14,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Flutter Demo',
         theme: ThemeData(
-          scaffoldBackgroundColor: Color.fromARGB(255, 13, 101, 173),
+          scaffoldBackgroundColor: Color.fromARGB(255, 121, 206, 125),
         ),
         home: Scaffold(
           appBar: AppBar(
-            title: const Text("Actividad Buho"),
+            title: const Text("Buho"),
             titleSpacing: 20,
           ),
           body: SingleChildScrollView(
@@ -34,30 +34,13 @@ class MyApp extends StatelessWidget {
                   Container(
                     child: CardsBase(
                       titulo: 'Lorem ipsum',
-                      description: 'Me quiero ',
+                      description: 'Ipsum ',
                     ),
                   ),
                   Container(
                     child: CardsBase(
-                      titulo: 'Ir ',
-                      description: 'A suecia',
-                    ),
-                  ),
-                ],
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Container(
-                    child: CardsBase(
-                      titulo: 'A prestar',
-                      description: 'Servicio',
-                    ),
-                  ),
-                  Container(
-                    child: CardsBase(
-                      titulo: 'Militar y manejar',
-                      description: 'Un tanque ',
+                      titulo: 'Lorem',
+                      description: 'Ipsum',
                     ),
                   ),
                 ],
@@ -67,14 +50,31 @@ class MyApp extends StatelessWidget {
                 children: [
                   Container(
                     child: CardsBase(
-                      titulo: 'A japon tambien',
-                      description: 'Viva japon',
+                      titulo: 'Lorem',
+                      description: 'Ipsum',
                     ),
                   ),
                   Container(
                     child: CardsBase(
-                      titulo: 'Abajo Racket',
-                      description: 'Ayudenme.',
+                      titulo: 'Lorem',
+                      description: 'Ipsum',
+                    ),
+                  ),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Container(
+                    child: CardsBase(
+                      titulo: 'Lorem',
+                      description: 'Ipsum',
+                    ),
+                  ),
+                  Container(
+                    child: CardsBase(
+                      titulo: 'Lorem',
+                      description: 'Ipsum',
                     ),
                   ),
                 ],

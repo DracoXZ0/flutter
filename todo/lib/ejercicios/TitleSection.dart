@@ -18,7 +18,7 @@ class TitleSection extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             ImageSection(
-                "https://atlasanimal.com/wp-content/uploads/2021/02/buho-del-desierto.jpg"),
+                "https://viniloydecoracion.com/648/decoracion-vinilo-animales-buho.jpg"),
           ],
         ),
         Spacer(),
